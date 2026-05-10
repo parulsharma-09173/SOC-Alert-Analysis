@@ -1,0 +1,29 @@
+SOC AUTH LOG ANALYZER - QUICK NOTES
+
+1.  Input:
+
+-   Linux auth.log file
+
+2.  Outputs:
+
+-   blacklist.txt
+-   report.csv
+-   alerts.txt
+-   PNG charts
+
+3.  Attack Detection:
+
+-   Brute force
+-   Username enumeration
+-   Invalid usernames
+-   Suspicious success after failures
+-   Impossible travel
+
+4.  Optional Components:
+
+-   GeoIP database for country detection
+-   Matplotlib for charts
+-   Pillow for image rendering
+
+5.  Common Commands: pip install matplotlib pillow geoip2 python
+    your_script.py
